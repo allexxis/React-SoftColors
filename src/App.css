@@ -43,6 +43,7 @@ ul{
     display: none;
 }
 .hamburger{
+    outline: none;
     cursor: pointer;
     border: none;
     background: transparent;
@@ -207,7 +208,7 @@ ul{
 }
 /*Triggering toggle*/
 .icon-flip{
-    animation: icon-flip 0.5s 1 linear;
+    animation: icon-flip 0.4s 1 linear;
 }
 .navbar-container-toggle{
     left:0;
